@@ -1,11 +1,11 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-	font-family: sans-serif;
+* {
+	/* all elements get inherited this properties, this is the lowest priority */
+}
+
+body {
+	/* Inheritance: in body we can define a base style for texts */
 	color: #444;
+	font-family: sans-serif;
 }
 
 h1,
@@ -124,7 +124,7 @@ a:active {
 
 /* When conflicts for same specificity the last selector is applied */
 
-/* !important => inline styles => id => class => elements */
+/* !important => inline styles => id => class => elements => */
 
 .text {
 	color: yellow;
