@@ -1,17 +1,22 @@
 * {
 	/* all elements get inherited this properties, this is the lowest priority */
+	margin: 0;
+	padding: 0;
+	/* global reset: remove margin and padding of all elements to make easier to style them */
 }
 
 body {
 	/* Inheritance: in body we can define a base style for texts */
 	color: #444;
 	font-family: sans-serif;
+	border-top: 10px solid #1098ad;
 }
 
 h1,
 h2,
 h3 {
 	color: #1098ad;
+	font-weight: bolder;
 }
 
 h1 {
@@ -20,35 +25,60 @@ h1 {
 	font-style: italic;
 }
 
-h2 {
-	font-size: 40px;
+.main-header {
+	background-color: #f7f7f7;
+	padding: 20px 40px;
+	margin-bottom: 60px;
 }
 
-h3 {
-	font-size: 30px;
+.post-header {
+	margin-bottom: 40px;
 }
 
-h4 {
-	font-size: 20px;
-
-	text-transform: uppercase;
-	text-align: center;
-}
-
-p {
-	font-size: 22px;
-
-	line-height: 1.5;
-}
-
-li {
-	font-size: 20px;
+article {
+	margin-bottom: 60px;
 }
 
 aside {
 	background-color: #f7f7f7;
 	border-top: 5px solid #1098ad;
 	border-bottom: 5px solid #1098ad;
+	padding: 50px 0;
+}
+
+h2 {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p {
+	font-size: 22px;
+	margin-bottom: 15px;
+	line-height: 1.5;
+}
+
+ul,
+ol {
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+li {
+	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 /* footer p {
@@ -75,16 +105,13 @@ aside {
 	list-style: none;
 }
 
-.main-header {
-	background-color: #f7f7f7;
-}
-
 li:first-child {
 	font-weight: bold;
 }
 
 li:last-child {
 	font-style: italic;
+	margin-bottom: 0;
 }
 
 /* li:nth-child(even) {
