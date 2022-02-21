@@ -44,13 +44,30 @@ body {
 }
 
 .main-nav__item a {
-	text-decoration: none;
+	font-weight: bold;
 	color: #0e4f1f;
+	padding: 3px 0;
+	text-decoration: none;
 }
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
+	border-bottom: 3px solid white;
 	color: white;
+}
+
+.main-nav__item--cta a {
+	background-color: #ff1b68;
+	border-radius: 8px;
+	color: white;
+	padding: 8px 16px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+	background-color: white;
+	color: #ff1b68;
+	border: none;
 }
 
 .section-title {
