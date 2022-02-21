@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+.box {
+	border: 5px solid red;
+	display: inline-block;
+	margin: 5px;
+	padding: 15px 10px;
+	text-align: center;
+	width: calc(50% - 42px);
+}
+
+.box--first {
+	height: 300px;
+	visibility: hidden;
+}
+
+.box--second:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
