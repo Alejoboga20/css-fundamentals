@@ -72,6 +72,7 @@ body {
 
 .section-title {
 	color: #2ddf5c;
+	text-align: center;
 }
 
 #product-overview {
@@ -85,4 +86,14 @@ body {
 #product-overview h1 {
 	color: white;
 	font-family: 'Anton', sans-serif;
+}
+
+.plan {
+	background-color: #d5ffdc;
+	display: inline-block;
+	margin: 8px;
+	padding: 16px;
+	text-align: center;
+	vertical-align: middle;
+	width: 30%;
 }
