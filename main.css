@@ -101,5 +101,13 @@ body {
 .plan--highlighted {
 	background-color: #19b84c;
 	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
 	color: white;
+}
+
+.plan__annotation {
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+	color: #0e4f1f;
+	padding: 8px;
 }
