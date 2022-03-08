@@ -2,6 +2,15 @@ main {
 	padding-top: 32px;
 }
 
+.background {
+	background-image: url('../images/plans-background.jpg');
+	height: 100%;
+	position: fixed;
+	top: 1;
+	width: 100%;
+	z-index: -1;
+}
+
 .package {
 	border-left: none;
 	border: 4px solid #0e4f1f;
