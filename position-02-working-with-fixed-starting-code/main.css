@@ -20,6 +20,9 @@ body {
 	margin: 0;
 }
 
+/* Overflow can not be applied only in body, we need to apply it in body and html  */
+/* OVerflow is used to avoid child elements display beyond its parent */
+
 .parent div {
 	background: rgb(105, 105, 109);
 	color: white;
